@@ -11,7 +11,7 @@ export class ProductsService {
 
   getAllProducts() {
     return this.http.get<Product[]>(
-      'http://localhost:8070/merkadeam-market/api/products/all'
+      'https://versiondos.herokuapp.com/merkadeam-market/api/products/all'
     );
   }
 }

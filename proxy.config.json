@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "http://localhost:8070/merkadeam-market/api",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
